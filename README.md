@@ -10,7 +10,7 @@ _a preencher_
 
 Letícia Franco
 Matheus Louback 
-Fellipe Oliveira
+Felippe Oliveira
 Karina de Melo
 
 ## Resumo
