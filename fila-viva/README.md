@@ -71,6 +71,14 @@ src/
 supabase/migrations/           schema com prefixo fv_
 ```
 
+## Publicado
+
+https://fila-viva-nine.vercel.app (Vercel, produção)
+
+O deploy sobe a partir desta pasta (`vercel deploy --prod`). Se algum dia for ligado
+na integração com o GitHub, o Root Directory do projeto na Vercel precisa apontar para
+`fila-viva`, já que o app não fica na raiz do repositório.
+
 ## Estado atual
 
 Estrutura e autenticação de ponta a ponta funcionando. As quatro páginas da área

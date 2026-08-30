@@ -25,7 +25,7 @@ Detalhe técnico e estrutura de pastas em [`fila-viva/README.md`](fila-viva/READ
 
 ## Links
 
-- Aplicação: _a publicar_
+- Aplicação: https://fila-viva-nine.vercel.app
 - Vídeo demo: _a gravar_
 
 ## Estrutura do repositório
