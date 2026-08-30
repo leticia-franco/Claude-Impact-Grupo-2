@@ -39,7 +39,7 @@ Detalhe técnico e estrutura de pastas em [`fila-viva/README.md`](fila-viva/READ
 - Aplicação: https://sidec-rio.vercel.app/login
   - login: admin@admin.com
   - senha: admin
-- Vídeo demo: _a gravar_
+- Vídeo demo: https://www.loom.com/share/6fe1303452da479da6129ac7f570c5ab
 
 ## Estrutura do repositório
 
