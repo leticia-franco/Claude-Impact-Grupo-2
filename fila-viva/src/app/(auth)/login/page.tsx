@@ -1,15 +1,16 @@
-import { Suspense } from "react";
 import type { Metadata } from "next";
 
 import { LoginForm } from "./login-form";
 import { Wordmark } from "@/components/brand";
-import { Skeleton } from "@/components/ui/skeleton";
 
 export const metadata: Metadata = {
   title: "Entrar",
 };
 
-export default function LoginPage() {
+export default async function LoginPage({ searchParams }: PageProps<"/login">) {
+  const { next } = await searchParams;
+  const destino = typeof next === "string" && next.startsWith("/") ? next : "/painel";
+
   return (
     <main className="flex min-h-dvh items-center justify-center p-6">
       <div className="w-full max-w-sm space-y-8">
@@ -21,9 +22,7 @@ export default function LoginPage() {
           </p>
         </div>
 
-        <Suspense fallback={<Skeleton className="h-80 w-full" />}>
-          <LoginForm />
-        </Suspense>
+        <LoginForm next={destino} />
 
         <p className="text-muted-foreground text-xs text-pretty">
           Protótipo do Hackathon SME-Rio + Rio Impact Lab. Não substitui o sistema

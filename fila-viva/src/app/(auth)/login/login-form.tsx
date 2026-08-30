@@ -1,7 +1,6 @@
 "use client";
 
 import { useActionState } from "react";
-import { useSearchParams } from "next/navigation";
 import { useFormStatus } from "react-dom";
 import { AlertCircle, CheckCircle2, Loader2 } from "lucide-react";
 
@@ -47,10 +46,7 @@ function Feedback({ state }: { state: AuthState }) {
   return null;
 }
 
-export function LoginForm() {
-  const searchParams = useSearchParams();
-  const next = searchParams.get("next") ?? "/painel";
-
+export function LoginForm({ next }: { next: string }) {
   const [signInState, signInAction] = useActionState(signIn, INITIAL);
   const [signUpState, signUpAction] = useActionState(signUp, INITIAL);
 

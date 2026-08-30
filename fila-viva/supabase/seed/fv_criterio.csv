@@ -1,0 +1,66 @@
+id,processo_id,pergunta,criterio,pontuacao,ordem,perg_id,ich_perg_id
+1,179,A criança tem alguma deficiência?,Não,100,1,2,95
+2,179,A criança tem déficit nutricional ou doença crônica ou familiar com doença crônica?,Não,10,2,7,96
+3,179,Já ocorreu alguma situação de violência na residência da criança praticado por algum membro do núcleo familiar?,Não,10,3,8,97
+4,179,Existe algum membro do núcleo familiar que faz uso de drogas ou é alcoólatra?,Não,10,4,9,98
+5,179,Existe algum membro do núcleo familiar que é presidiário ou ex-presidiário nos últimos 5 anos?,Não,5,5,12,120
+6,179,Faz parte do programa bolsa família?,Não,100,6,11,121
+7,179,Possui Cartão Carioca?,Não,100,7,3,122
+8,179,Possui irmão participando de processo classificatório na creche?,Sim,0,8,26,123
+9,179,A mãe é mãe adolescente?,Sim,0,9,1,124
+10,179,A criança pertence ao Programa Territórios Sociais?,Não,100,10,21,125
+11,179,O candidato é refugiado?,Não,10,11,23,126
+12,179,Candidato tem pais ou responsáveis com idade igual ou superior a sessenta anos ?,Não,10,12,24,127
+13,179,Candidato tem pais ou responsáveis deficientes ?,Não,10,13,25,128
+14,181,A criança tem alguma deficiência?,Não,100,1,2,142
+15,181,A criança tem déficit nutricional ou doença crônica ou familiar com doença crônica?,Não,10,2,7,143
+16,181,Já ocorreu alguma situação de violência na residência da criança praticado por algum membro do núcleo familiar?,Não,10,3,8,144
+17,181,Existe algum membro do núcleo familiar que faz uso de drogas ou é alcoólatra?,Não,10,4,9,145
+18,181,Existe algum membro do núcleo familiar que é presidiário ou ex-presidiário?,Não,5,5,10,146
+19,181,Faz parte do programa bolsa família?,Não,100,6,11,147
+20,181,Possui Cartão Carioca?,Não,100,7,3,148
+21,181,Possui irmão participando de processo classificatório na creche?,Sim,0,8,26,149
+22,181,A mãe é mãe adolescente?,Sim,0,9,1,150
+23,181,A criança pertence ao Programa Territórios Sociais?,Não,100,10,21,151
+24,181,O candidato é refugiado?,Não,10,11,23,152
+25,181,Candidato tem pais ou responsáveis com idade igual ou superior a sessenta anos ?,Não,10,12,24,153
+26,181,Candidato tem pais ou responsáveis deficientes ?,Não,10,13,25,154
+27,184,A criança tem alguma deficiência?,Não,100,1,2,155
+28,184,A criança tem déficit nutricional ou doença crônica ou familiar com doença crônica?,Não,10,2,7,156
+29,184,Já ocorreu alguma situação de violência na residência da criança praticado por algum membro do núcleo familiar?,Não,10,3,8,157
+30,184,Existe algum membro do núcleo familiar que faz uso de drogas ou é alcoólatra?,Não,10,4,9,158
+31,184,Existe algum membro do núcleo familiar que é presidiário ou ex-presidiário nos últimos 5 anos?,Não,5,5,12,168
+32,184,Faz parte do programa bolsa família?,Não,100,6,11,160
+33,184,Possui Cartão Carioca?,Não,100,7,3,161
+34,184,Possui irmão participando de processo classificatório na creche?,Sim,0,8,26,162
+35,184,A mãe é mãe adolescente?,Sim,0,9,1,163
+36,184,A criança pertence ao Programa Territórios Sociais?,Não,100,10,21,164
+37,184,O candidato é refugiado?,Não,10,11,23,165
+38,184,Candidato tem pais ou responsáveis com idade igual ou superior a sessenta anos ?,Não,10,12,24,166
+39,184,Candidato tem pais ou responsáveis deficientes ?,Não,10,13,25,167
+40,194,A criança tem alguma deficiência?,Não,25,1,2,260
+41,194,Criança cuja família seja inscrita no CadÚnico (Cadastro Único para Programas Sociais)?,Não,25,2,28,261
+42,194,Faz parte do programa bolsa família ou possui Cartão Carioca?,Não,15,3,6,264
+43,194,A criança e/ou familiar do seu convívio diário é vitima de violência doméstica?,Não,10,4,17,265
+44,194,Existe algum membro do núcleo familiar que faz uso abusivo de drogas e/ou alcoól?,Não,10,5,16,266
+45,194,O candidato é refugiado?,Não,5,6,23,267
+46,194,A criança e/ou alguém do núcleo familiar apresentam doenças crônicas graves?,Não,3,7,18,268
+47,194,Existe algum membro do núcleo familiar que é presidiário ou ex-presidiário?,Não,2,8,10,269
+48,194,Candidato tem pais ou responsáveis deficientes ?,Não,2,9,25,270
+49,194,A criança pertence a família monoparental?,Não,2,10,20,271
+50,194,Criança aguardou em fila de espera no ano anterior sem ter sido atendida?,Não,1,11,27,272
+51,194,O Candidato possui irmão matriculado na rede pública ou parceria?,Sim,0,12,29,273
+52,194,O Candidato possui pais ou responsáveis com idade menor que 18 anos?,Sim,0,13,30,274
+53,195,Criança cuja família seja inscrita no CadÚnico (Cadastro Único para Programas Sociais)?,Não,51,1,28,275
+54,195,A criança é público-alvo da educação especial?,Não,25,2,31,288
+55,195,Faz parte do programa bolsa família ou possui Cartão Carioca?,Não,2,3,6,289
+56,195,A criança e/ou familiar do seu convívio diário é vitima de violência doméstica?,Não,4,4,17,290
+57,195,A criança pertence a família monoparental?,Não,4,5,20,291
+58,195,Candidato tem pais ou responsáveis deficientes ?,Não,3,6,25,280
+59,195,A criança e/ou alguém do núcleo familiar apresentam doenças crônicas graves?,Não,3,7,18,281
+60,195,Existe algum membro do núcleo familiar que faz uso abusivo de drogas e/ou alcoól?,Não,2,8,16,282
+61,195,Existe algum membro do núcleo familiar que é presidiário ou ex-presidiário nos últimos 5 anos?,Não,2,9,12,283
+62,195,O candidato é refugiado?,Não,2,10,23,284
+63,195,Criança aguardou em fila de espera no ano anterior sem ter sido atendida?,Não,2,11,27,285
+64,195,O Candidato possui irmão matriculado na rede pública ou parceria?,Sim,0,12,29,286
+65,195,O Candidato possui pais ou responsáveis com idade menor que 18 anos?,Sim,0,13,30,287
