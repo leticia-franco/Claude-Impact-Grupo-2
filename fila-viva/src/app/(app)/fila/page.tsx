@@ -370,7 +370,7 @@ export default async function FilaPage({
             {(
               [
                 ["lista", "Lista", List],
-                ["kanban", "Kanban", LayoutGrid],
+                ["kanban", "Quadro de tarefas", LayoutGrid],
               ] as const
             ).map(([chave, rotulo, Icon]) => {
               const alvo = new URLSearchParams(paramsAtuais);
