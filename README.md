@@ -1,4 +1,4 @@
-# Claude Impact Lab Rio 2026 — Grupo 2
+# Fila Dinâmica | Creches Prefeitura do Rio
 
 Desafio: **Inteligência na Fila da Creche** (SME-Rio).
 
