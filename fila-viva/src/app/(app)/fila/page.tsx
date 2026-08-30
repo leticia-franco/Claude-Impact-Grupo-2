@@ -52,7 +52,6 @@ import { RotinaChamadas } from "./rotina-chamadas";
 import type { CoordenadaRota } from "./roteamento";
 import {
   TAG_CADUNICO,
-  TAG_FORA_CONVOCADA,
   TAG_VAGA,
   TagStatus,
 } from "./tags";
@@ -192,26 +191,6 @@ function CelulasLinha({
       <TableCell className="text-muted-foreground whitespace-nowrap">
         {dataCurta.format(new Date(linha.criadaEm))}
         <span className="ml-1 text-xs">({diasDesde(linha.criadaEm)} d)</span>
-      </TableCell>
-      <TableCell>
-        <div className="flex flex-wrap gap-1">
-          {linha.confirmadaEmOutra.length > 0 && (
-            <Badge
-              variant="destructive"
-              title={`Matriculada em: ${linha.confirmadaEmOutra.join(", ")}`}
-            >
-              matriculada em outra unidade
-            </Badge>
-          )}
-          {linha.aguardandoOutra.length > 0 && (
-            <Badge
-              className={TAG_FORA_CONVOCADA}
-              title={`Selecionada, com convocação em andamento em: ${linha.aguardandoOutra.join(", ")}`}
-            >
-              selecionada em outra unidade
-            </Badge>
-          )}
-        </div>
       </TableCell>
     </>
   );
@@ -439,7 +418,6 @@ export default async function FilaPage({
                           <TableHead>Critérios</TableHead>
                           <TableHead>Distância pela rota</TableHead>
                           <TableHead>Na fila desde</TableHead>
-                          <TableHead>Fora desta unidade</TableHead>
                         </TableRow>
                       </TableHeader>
                       <TableBody>
