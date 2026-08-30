@@ -1,4 +1,4 @@
-# SIDEC | Sistema Integrado de Distribuição de Creches
+# SIDEC-Rio | Sistema Integrado de Distribuição de Creches
 
 Desafio: **Inteligência na Fila da Creche** (SME-Rio).
 
