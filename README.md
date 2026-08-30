@@ -8,10 +8,10 @@ Grupo 2
 
 ## Membros
 
+Felippe Rodrigues Oliveira<br>
+Karina de Melo Santos<br>
 Leticia Figueira Franco<br>
 Matheus Louback Passos<br>
-Felippe Rodrigues Oliveira<br>
-Karina de Melo Santos 
 
 ## Resumo
 
