@@ -8,10 +8,10 @@ _a preencher_
 
 ## Membros
 
-Leticia Franco<br>
-Matheus Louback<br>
-Felippe Oliveira<br>
-Karina de Melo
+Leticia Figueira Franco<br>
+Matheus Louback Passos<br>
+Felippe Rodrigues Oliveira<br>
+Karina de Melo Santos 
 
 ## Resumo
 
