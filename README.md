@@ -36,7 +36,7 @@ Detalhe técnico e estrutura de pastas em [`fila-viva/README.md`](fila-viva/READ
 
 ## Links
 
-- Aplicação: https://sidec-rio.vercel.app/login?next=%2F
+- Aplicação: https://sidec-rio.vercel.app/login
   - login: admin@admin.com
   - senha: admin
 - Vídeo demo: _a gravar_
