@@ -6,7 +6,10 @@ import { Loader2, Send } from "lucide-react";
 import { Button } from "@/components/ui/button";
 
 import { dispararChamada } from "./acoes";
-import { ComunicacaoConfirmada } from "./comunicacao-confirmada";
+import {
+  ComunicacaoConfirmada,
+  DURACAO_CONFIRMACAO_MS,
+} from "./comunicacao-confirmada";
 
 export function BotaoDispararChamada({
   opcaoId,
@@ -29,7 +32,10 @@ export function BotaoDispararChamada({
       if (resultado.enviada) {
         setChamada(resultado.chamada);
         setEstado("enviada");
-        window.setTimeout(() => setEstado("pronto"), 5000);
+        window.setTimeout(
+          () => setEstado("pronto"),
+          DURACAO_CONFIRMACAO_MS,
+        );
         return;
       }
       setEstado("pronto");

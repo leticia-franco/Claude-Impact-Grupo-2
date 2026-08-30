@@ -8,6 +8,8 @@ import { Badge } from "@/components/ui/badge";
 import { buttonVariants } from "@/components/ui/button";
 import { cn } from "@/lib/utils";
 
+export const DURACAO_CONFIRMACAO_MS = 10_000;
+
 export function ComunicacaoConfirmada({
   criancaId,
   criancaIds,
@@ -27,7 +29,10 @@ export function ComunicacaoConfirmada({
   const varios = total != null && total > 1;
 
   useEffect(() => {
-    const temporizador = window.setTimeout(() => setAberto(false), 5000);
+    const temporizador = window.setTimeout(
+      () => setAberto(false),
+      DURACAO_CONFIRMACAO_MS,
+    );
     return () => window.clearTimeout(temporizador);
   }, []);
 

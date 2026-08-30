@@ -6,7 +6,10 @@ import { Loader2 } from "lucide-react";
 import { Button } from "@/components/ui/button";
 
 import { dispararChamada, selecionar } from "./acoes";
-import { ComunicacaoConfirmada } from "./comunicacao-confirmada";
+import {
+  ComunicacaoConfirmada,
+  DURACAO_CONFIRMACAO_MS,
+} from "./comunicacao-confirmada";
 
 type Fase = "pronto" | "selecionando" | "selecionada" | "disparando" | "enviada";
 
@@ -20,7 +23,6 @@ const ROTULO: Record<Fase, string> = {
 
 /** Pausa entre a seleção e a 1ª chamada, para a transição ficar visível. */
 const PAUSA_MS = 3000;
-const SUCESSO_MS = 5000;
 
 /**
  * Conduz o fluxo completo da seleção: grava a criança como selecionada,
@@ -49,7 +51,9 @@ export function BotaoSelecionar({
       if (resultado.enviada) {
         setChamada(resultado.chamada);
         setFase("enviada");
-        await new Promise((resolve) => setTimeout(resolve, SUCESSO_MS));
+        await new Promise((resolve) =>
+          setTimeout(resolve, DURACAO_CONFIRMACAO_MS),
+        );
       }
     } finally {
       setFase("pronto");
