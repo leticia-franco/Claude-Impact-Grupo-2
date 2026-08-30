@@ -4,7 +4,7 @@ Desafio: **Inteligência na Fila da Creche** (SME-Rio).
 
 ## Nome da equipe
 
-_a preencher_
+Grupo 2
 
 ## Membros
 
