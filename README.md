@@ -8,7 +8,10 @@ _a preencher_
 
 ## Membros
 
-_a preencher_
+Letícia Franco
+Matheus Louback 
+Fellipe Oliveira
+Karina de Melo
 
 ## Resumo
 
