@@ -17,7 +17,7 @@ function SubmitButton({ children }: { children: React.ReactNode }) {
   const { pending } = useFormStatus();
 
   return (
-    <Button type="submit" className="w-full" disabled={pending}>
+    <Button type="submit" size="lg" className="w-full" disabled={pending}>
       {pending ? <Loader2 className="animate-spin" aria-hidden /> : null}
       {children}
     </Button>
@@ -51,13 +51,13 @@ export function LoginForm({ next }: { next: string }) {
   const [signUpState, signUpAction] = useActionState(signUp, INITIAL);
 
   return (
-    <Tabs defaultValue="entrar" className="w-full">
-      <TabsList className="w-full">
+    <Tabs defaultValue="entrar" className="w-full gap-0">
+      <TabsList className="h-10 w-full">
         <TabsTrigger value="entrar">Entrar</TabsTrigger>
         <TabsTrigger value="criar">Criar conta</TabsTrigger>
       </TabsList>
 
-      <TabsContent value="entrar">
+      <TabsContent value="entrar" className="mt-6">
         <form action={signInAction} className="space-y-4">
           <input type="hidden" name="next" value={next} />
 
@@ -69,6 +69,7 @@ export function LoginForm({ next }: { next: string }) {
               type="email"
               autoComplete="email"
               placeholder="nome@rioeduca.rj.gov.br"
+              className="h-10"
               required
             />
           </div>
@@ -80,6 +81,7 @@ export function LoginForm({ next }: { next: string }) {
               name="password"
               type="password"
               autoComplete="current-password"
+              className="h-10"
               required
             />
           </div>
@@ -89,7 +91,7 @@ export function LoginForm({ next }: { next: string }) {
         </form>
       </TabsContent>
 
-      <TabsContent value="criar">
+      <TabsContent value="criar" className="mt-6">
         <form action={signUpAction} className="space-y-4">
           <div className="space-y-2">
             <Label htmlFor="signup-email">E-mail institucional</Label>
@@ -99,6 +101,7 @@ export function LoginForm({ next }: { next: string }) {
               type="email"
               autoComplete="email"
               placeholder="nome@rioeduca.rj.gov.br"
+              className="h-10"
               required
             />
           </div>
@@ -111,6 +114,7 @@ export function LoginForm({ next }: { next: string }) {
               type="password"
               autoComplete="new-password"
               minLength={8}
+              className="h-10"
               required
             />
             <p className="text-muted-foreground text-xs">Mínimo de 8 caracteres.</p>
