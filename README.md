@@ -8,9 +8,9 @@ _a preencher_
 
 ## Membros
 
-Letícia Franco
-Matheus Louback 
-Felippe Oliveira
+Letícia Franco<br>
+Matheus Louback<br>
+Felippe Oliveira<br>
 Karina de Melo
 
 ## Resumo
