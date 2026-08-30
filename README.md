@@ -1,4 +1,4 @@
-# Fila Viva | Creches Prefeitura do Rio
+# SIDEC | Sistema Integrado de Distribuição de Creches
 
 Desafio: **Inteligência na Fila da Creche** (SME-Rio).
 
@@ -15,7 +15,7 @@ Karina de Melo Santos
 
 ## Resumo
 
-O Fila Viva é um painel de classificação e convocação da fila de creche, utilizado pelas 11 Coordenadorias Regionais de Educação (CREs).
+O SIDEC é um painel de classificação e convocação da fila de creche, utilizado pelas 11 Coordenadorias Regionais de Educação (CREs).
 Seu objetivo principal é otimizar a gestão da fila, tornando o processo de alocação mais ágil e garantindo que o status de cada criança seja visível tanto para as CREs quanto para as direções escolares.
 
 Por se tratar de uma fila dinâmica, o sistema também assegura a veracidade do número de crianças ainda não alocadas: embora cada fila seja administrada localmente, todas são alimentadas por uma fonte de dados única e integrada, o que evita divergências e desatualizações de lista.
