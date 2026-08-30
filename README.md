@@ -8,7 +8,7 @@ _a preencher_
 
 ## Membros
 
-Letícia Franco<br>
+Leticia Franco<br>
 Matheus Louback<br>
 Felippe Oliveira<br>
 Karina de Melo
