@@ -15,9 +15,19 @@ Karina de Melo Santos
 
 ## Resumo
 
-Fila Viva é uma solução desenvolvida para otimizar o acompanhamento e a gestão da fila de creches nas 11 Coordenadorias Regionais de Educação. A partir da análise da base de dados de 2021 a 2025, foram identificados três desafios principais: a inconsistência entre o tamanho da fila publicada e a fila real, chamadas de vagas que não resultam em matrícula e a ausência de um histórico das alterações de status das solicitações.
+O Fila Viva é um painel de classificação e convocação da fila de creche, utilizado pelas 11 Coordenadorias Regionais de Educação (CREs).
+Seu objetivo principal é otimizar a gestão da fila, tornando o processo de alocação mais ágil e garantindo que o status de cada criança seja visível tanto para as CREs quanto para as direções escolares.
 
-Para enfrentar esses desafios, o Fila Viva centraliza as informações de classificação e convocação, automatiza a atualização dos status das solicitações e registra a data de cada alteração, proporcionando maior rastreabilidade e confiabilidade aos dados. A solução também amplia o acesso às informações para alunos e responsáveis e transforma os dados da fila em insumos para geração de insights, apoiando os gestores no acompanhamento da demanda e na tomada de decisões mais estratégicas.
+Por se tratar de uma fila dinâmica, o sistema também assegura a veracidade do número de crianças ainda não alocadas: embora cada fila seja administrada localmente, todas são alimentadas por uma fonte de dados única e integrada, o que evita divergências e desatualizações de lista.
+
+Como avanço na gestão da fila, o critério de alocação foi ampliado. Anteriormente baseado apenas nas preferências indicadas pela família no momento do cadastro, o processo passou a considerar também:
+<ul>
+<li>disponibilidade de vagas;
+<li>proximidade entre a residência da família e a unidade escolar;
+<li>vulnerabilidade social da criança/família.
+</ul>
+Essa combinação de critérios torna a alocação mais justa, eficiente e alinhada às reais necessidades das crianças e das creches.
+
 
 ## Arquitetura
 
